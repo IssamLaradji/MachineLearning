@@ -33,3 +33,6 @@ agent should be going at each state.
  The average reward results between policy iteration and value iteration should look similar to this:
  
  ![Average reward comparison plot](figs/policy_vs_value.png)
+
+To get a nice plot, install pretty-plots with pip:
+ `pip install pretty-plots`

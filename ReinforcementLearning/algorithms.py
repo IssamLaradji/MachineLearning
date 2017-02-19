@@ -1,4 +1,5 @@
 def apply_algorithm(rule, Pi, V, R, P, n_states, n_actions, gamma):
+
     if rule == "value_iteration":
         # Reference: http://webdocs.cs.ualberta.ca/~sutton/book/4/node5.html
         delta = 100.
